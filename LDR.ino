@@ -6,6 +6,7 @@ void setup() {
   Serial.begin(9600);
 }
 
+
 void loop() {
   int ldr_value = analogRead(LDR_PIN);
   Serial.print("LDR value: ");
