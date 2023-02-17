@@ -13,6 +13,7 @@ void loop() {
   tempC = (tempC - 0.5) * 100.0; //convert to degrees C
   
   lcd.setCursor(0, 0);
+  
   lcd.print("Temp: ");
   lcd.print(tempC);
   lcd.print(" C");
